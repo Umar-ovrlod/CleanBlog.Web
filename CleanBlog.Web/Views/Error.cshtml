@@ -1,0 +1,13 @@
+﻿
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<Umbraco.Web.PublishedModels.Error>
+@using CleanBlog.Core.Extensions
+@{
+    Layout = "~/Views/Master.cshtml";
+}
+@Html.Partial("~/Views/Partials/pageHeader.cshtml")
+
+
+<!-- Main Content -->
+<article>
+    @Html.GetGridHtml(Model, "mainContent", "Clean", true)
+</article>
