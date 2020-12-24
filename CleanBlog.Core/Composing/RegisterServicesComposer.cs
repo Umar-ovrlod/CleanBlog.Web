@@ -14,6 +14,8 @@ namespace CleanBlog.Core.Composing
         public void Compose(Composition composition)
         {
             composition.Register<ISmtpService,SmtpService>(Lifetime.Singleton);
+            composition.Register<IArticleService, ArticleService>(Lifetime.Request);
+
         }
     }
 }

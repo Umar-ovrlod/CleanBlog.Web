@@ -1,32 +1,26 @@
 ﻿@using CleanBlog.Core.Helpers
-@inherits UmbracoViewPage
+@inherits CleanBlogViewPage
+@using CleanBlog.Core.ViewPages
 
 @{
+    //var siteRoot = Model.Root();
     //var articles = Model.Root().Descendant<Article>();
     //var articles = Model.Root().Descendants().Where(x => x.ContentType.Alias == "article" && x.IsVisible()).OrderByDescending(y => y.Value());
-    var articleList = Model.Root().Descendants<ArticleList>().FirstOrDefault();
-    var articles = articleList.Descendants<Article>().Where(x => x.IsVisible()).OrderByDescending(y => y.ArticleDate);
+    //var articleList = (ArticleList)ArticleService.GetArticleListPage(Model.Root());
+    //var articles = ArticleService.GetLatestArticles(siteRoot).Cast<Article>().Take(1);
+    //var articles = ArticleService.GetLatestArticles(siteRoot).Cast<Article>();
 
-    var isArticleListPage = articleList.Id == Model.Id;
-    var fallbackPageSize = isArticleListPage ? 5 : 3;
+    var resultSet = ArticleService.GetLatestArticles(Model, Request);
 
-    var pageNumber = QueryStringHelper.GetIntFromQueryString(Request, "page", 1);
-    //var pageSize = fallbackPageSize;
-    //var pageSize = QueryStringHelper.GetIntFromQueryString(Request, "size", fallbackPageSize);
-    var pageSize = QueryStringHelper.GetIntFromQueryString(Request, "size", fallbackPageSize);
-
-
-    var pageOfArticles = articles.Skip((pageNumber - 1) * pageSize).Take(pageSize);
-    var totalItemCount = articles.Count();
-    var pageCount = totalItemCount > 0 ? Math.Ceiling((double)totalItemCount / pageSize) : 1;
 }
 
-@if (articles != null && articles.Any())
+@if (resultSet != null && resultSet.Results!=null && resultSet.Results.Any())
 {
+    var articles = resultSet.Results.Cast<Article>();
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
-                @foreach (var article in pageOfArticles)
+                @foreach (var article in articles)
                 {
                     <div class="post-preview">
                         <a href="@article.Url()">
@@ -56,14 +50,14 @@
                 }
 
                     <div id="paging" class="clearfix">
-                        @if (isArticleListPage)
+                        @if (resultSet.IsArticleListPage)
                         {
-                            if (pageCount > 1)
+                            if (resultSet.PageCount > 1)
                             {
                                 <div class="paging-block">
-                                    @if (pageNumber > 1)
+                                    @if (resultSet.PageNumber > 1)
                                     {
-                                        <a class="btn btn-primary float-left" href="@($"{articleList.Url()}?page={pageNumber - 1}&size={pageSize}")">Prev</a>
+                                        <a class="btn btn-primary float-left" href="@($"{Model.Url()}?page={resultSet.PageNumber - 1}&size={resultSet.PageSize}")">Prev</a>
                                     }
                                     else
                                     {
@@ -71,12 +65,12 @@
                                     }
                                 </div>
                                 <div class="paging-block text-center">
-                                    <span>Page @pageNumber of @pageCount</span>
+                                    <span>Page @resultSet.PageNumber of @resultSet.PageCount</span>
                                 </div>
                                 <div class="paging-block">
-                                    @if (pageNumber < pageCount)
+                                    @if (resultSet.PageNumber < resultSet.PageCount)
                                     {
-                                        <a class="btn btn-primary float-right" href="@($"{articleList.Url()}?page={pageNumber + 1}&size={pageSize}")">Next</a>
+                                        <a class="btn btn-primary float-right" href="@($"{Model.Url()}?page={resultSet.PageNumber + 1}&size={resultSet.PageSize}")">Next</a>
                                     }
                                     else
                                     {
@@ -89,7 +83,7 @@
                         }
                         else
                         {
-                            <a class="btn btn-primary float-right" href="@(articleList.Url())">ViewAll</a>
+                            <a class="btn btn-primary float-right" href="@(Model.Url())">ViewAll</a>
                         }
                     </div>
 
