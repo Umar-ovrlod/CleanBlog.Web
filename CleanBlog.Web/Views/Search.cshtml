@@ -27,7 +27,7 @@
                     {
                         var results = Umbraco.ContentQuery.Search(searchQuery, string.Empty);
                         long resultCount = results != null && results.Any() ? results.Count() : 0;
-                    <p>@Html.Raw(string.Format(@Umbraco.GetDictionaryValue("Search.ResultsText"), searchQuery, resultCount, resultCount == 1 ? null : "s"))</p>
+                    <p>@Html.Raw(string.Format(Umbraco.GetDictionaryValue("Search.ResultsText"), searchQuery, resultCount, resultCount == 1 ? null : "s"))</p>
                         if (resultCount > 0)
                         {
                             foreach (var result in results)
@@ -37,7 +37,7 @@
                                 var authorName = result.Content.Value<string>("authorName");
                                 var articleDate = result.Content.Value<DateTime>("articleDate");
                                 <div class="post-preview">
-                                    <a href="@result.Content.Url">
+                                    <a href="@result.Content.Url()">
                                     <h2 class="post-title">
                                        @( !string.IsNullOrWhiteSpace(title)?title:result.Content.Name)
                                     </h2>
