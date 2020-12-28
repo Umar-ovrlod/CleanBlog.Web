@@ -1,2 +1,128 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<map />
+<map>
+  <item key="L2Nzcy9jbGVhbi1ibG9nLm1pbi5jc3M7" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_4c42854ad38a4c279ce32ac5888a64d4.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/css/clean-blog.min.css" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9ib290c3RyYXAvY3NzL2Jvb3RzdHJhcC5taW4uY3NzOy92ZW5kb3IvZm9udGF3ZXNvbWUtZnJlZS9jc3MvYWxsLm1pbi5jc3M7" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_d564a7844a9e4d17a2586b4760c1c72d.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/bootstrap/css/bootstrap.min.css" />
+      <file name="/vendor/fontawesome-free/css/all.min.css" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9qcXVlcnkvanF1ZXJ5Lm1pbi5qczsvdmVuZG9yL2Jvb3RzdHJhcC9qcy9ib290c3RyYXAuYnVuZGxlLm1pbi5qczsvanMvY2xlYW4tYmxvZy5taW4uanM7L3NjcmlwdHMvcGxlYXNlRG9udEdvLmpzOw" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_67de9c27d8a848bbaa2416d2de83b4e5.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/jquery/jquery.min.js" />
+      <file name="/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <file name="/js/clean-blog.min.js" />
+      <file name="/scripts/pleaseDontGo.js" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9ib290c3RyYXAvY3NzL2Jvb3RzdHJhcC5taW4uY3NzOw" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_f27a8453b2d04756a6e3f4c1586984b1.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/bootstrap/css/bootstrap.min.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vYXNzZXRzL2Nzcy91bWJyYWNvLmNzczsvdW1icmFjby9saWIvYm9vdHN0cmFwLXNvY2lhbC9ib290c3RyYXAtc29jaWFsLmNzczsvdW1icmFjby9saWIvZm9udC1hd2Vzb21lL2Nzcy9mb250LWF3ZXNvbWUubWluLmNzczs" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_de4b03ad70dc4530a923172e4c4899f0.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/umbraco/assets/css/umbraco.css" />
+      <file name="/umbraco/lib/bootstrap-social/bootstrap-social.css" />
+      <file name="/umbraco/lib/font-awesome/css/font-awesome.min.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vbGliL2pxdWVyeS9qcXVlcnkubWluLmpzOy91bWJyYWNvL2xpYi9qcXVlcnktdWkvanF1ZXJ5LXVpLm1pbi5qczsvdW1icmFjby9saWIvanF1ZXJ5LXVpLXRvdWNoLXB1bmNoL2pxdWVyeS51aS50b3VjaC1wdW5jaC5taW4uanM7L3VtYnJhY28vbGliL2FuZ3VsYXIvYW5ndWxhci5qczsvdW1icmFjby9saWIvdW5kZXJzY29yZS91bmRlcnNjb3JlLW1pbi5qczsvdW1icmFjby9saWIvbW9tZW50L21vbWVudC5taW4uanM7L3VtYnJhY28vbGliL2ZsYXRwaWNrci9mbGF0cGlja3IuanM7L3VtYnJhY28vbGliL2FuaW1lanMvYW5pbWUubWluLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLXJvdXRlL2FuZ3VsYXItcm91dGUuanM7L3VtYnJhY28vbGliL2FuZ3VsYXItY29va2llcy9hbmd1bGFyLWNvb2tpZXMuanM7L3VtYnJhY28vbGliL2FuZ3VsYXItYXJpYS9hbmd1bGFyLWFyaWEubWluLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLXRvdWNoL2FuZ3VsYXItdG91Y2guanM7L3VtYnJhY28vbGliL2FuZ3VsYXItc2FuaXRpemUvYW5ndWxhci1zYW5pdGl6ZS5qczsvdW1icmFjby9saWIvYW5ndWxhci1hbmltYXRlL2FuZ3VsYXItYW5pbWF0ZS5qczsvdW1icmFjby9saWIvYW5ndWxhci1tZXNzYWdlcy9hbmd1bGFyLW1lc3NhZ2VzLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLXVpLXNvcnRhYmxlL3NvcnRhYmxlLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLWR5bmFtaWMtbG9jYWxlL3RtaER5bmFtaWNMb2NhbGUubWluLmpzOy91bWJyYWNvL2xpYi9uZy1maWxlLXVwbG9hZC9uZy1maWxlLXVwbG9hZC5taW4uanM7L3VtYnJhY28vbGliL2FuZ3VsYXItbG9jYWwtc3RvcmFnZS9hbmd1bGFyLWxvY2FsLXN0b3JhZ2UubWluLmpzOy91bWJyYWNvL2xpYi9jaGFydC5qcy9jaGFydC5taW4uanM7L3VtYnJhY28vbGliL2FuZ3VsYXItY2hhcnQuanMvYW5ndWxhci1jaGFydC5taW4uanM7L3VtYnJhY28vbGliL3dpY2ctaW5lcnQvZGlzdC9pbmVydC5taW4uanM7L3VtYnJhY28vbGliL3VtYnJhY28vRXh0ZW5zaW9ucy5qczsvdW1icmFjby9saWIvdW1icmFjby9OYW1lc3BhY2VNYW5hZ2VyLmpzOy91bWJyYWNvL2xpYi91bWJyYWNvL0xlZ2FjeVNwZWVjaEJ1YmJsZS5qczsvdW1icmFjby9qcy9hcHAuanM7L3VtYnJhY28vanMvdW1icmFjby5yZXNvdXJjZXMuanM7L3VtYnJhY28vanMvdW1icmFjby5kaXJlY3RpdmVzLmpzOy91bWJyYWNvL2pzL3VtYnJhY28uZmlsdGVycy5qczsvdW1icmFjby9qcy91bWJyYWNvLnNlcnZpY2VzLmpzOy91bWJyYWNvL2pzL3VtYnJhY28uaW50ZXJjZXB0b3JzLmpzOy91bWJyYWNvL2pzL3VtYnJhY28uY29udHJvbGxlcnMuanM7L3VtYnJhY28vanMvcm91dGVzLmpzOy91bWJyYWNvL2pzL2luaXQuanM7" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_357347f6470f41dcbf13b226df9bf0d0.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/umbraco/lib/jquery/jquery.min.js" />
+      <file name="/umbraco/lib/jquery-ui/jquery-ui.min.js" />
+      <file name="/umbraco/lib/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js" />
+      <file name="/umbraco/lib/angular/angular.js" />
+      <file name="/umbraco/lib/underscore/underscore-min.js" />
+      <file name="/umbraco/lib/moment/moment.min.js" />
+      <file name="/umbraco/lib/flatpickr/flatpickr.js" />
+      <file name="/umbraco/lib/animejs/anime.min.js" />
+      <file name="/umbraco/lib/angular-route/angular-route.js" />
+      <file name="/umbraco/lib/angular-cookies/angular-cookies.js" />
+      <file name="/umbraco/lib/angular-aria/angular-aria.min.js" />
+      <file name="/umbraco/lib/angular-touch/angular-touch.js" />
+      <file name="/umbraco/lib/angular-sanitize/angular-sanitize.js" />
+      <file name="/umbraco/lib/angular-animate/angular-animate.js" />
+      <file name="/umbraco/lib/angular-messages/angular-messages.js" />
+      <file name="/umbraco/lib/angular-ui-sortable/sortable.js" />
+      <file name="/umbraco/lib/angular-dynamic-locale/tmhDynamicLocale.min.js" />
+      <file name="/umbraco/lib/ng-file-upload/ng-file-upload.min.js" />
+      <file name="/umbraco/lib/angular-local-storage/angular-local-storage.min.js" />
+      <file name="/umbraco/lib/chart.js/chart.min.js" />
+      <file name="/umbraco/lib/angular-chart.js/angular-chart.min.js" />
+      <file name="/umbraco/lib/wicg-inert/dist/inert.min.js" />
+      <file name="/umbraco/lib/umbraco/Extensions.js" />
+      <file name="/umbraco/lib/umbraco/NamespaceManager.js" />
+      <file name="/umbraco/lib/umbraco/LegacySpeechBubble.js" />
+      <file name="/umbraco/js/app.js" />
+      <file name="/umbraco/js/umbraco.resources.js" />
+      <file name="/umbraco/js/umbraco.directives.js" />
+      <file name="/umbraco/js/umbraco.filters.js" />
+      <file name="/umbraco/js/umbraco.services.js" />
+      <file name="/umbraco/js/umbraco.interceptors.js" />
+      <file name="/umbraco/js/umbraco.controllers.js" />
+      <file name="/umbraco/js/routes.js" />
+      <file name="/umbraco/js/init.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vbGliL3RpbnltY2UvdGlueW1jZS5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9wYXN0ZS9wbHVnaW4ubWluLmpzOy91bWJyYWNvL2xpYi90aW55bWNlL3BsdWdpbnMvYW5jaG9yL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9jaGFybWFwL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy90YWJsZS9wbHVnaW4ubWluLmpzOy91bWJyYWNvL2xpYi90aW55bWNlL3BsdWdpbnMvbGlzdHMvcGx1Z2luLm1pbi5qczsvdW1icmFjby9saWIvdGlueW1jZS9wbHVnaW5zL2Fkdmxpc3QvcGx1Z2luLm1pbi5qczsvdW1icmFjby9saWIvdGlueW1jZS9wbHVnaW5zL2hyL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9hdXRvbGluay9wbHVnaW4ubWluLmpzOy91bWJyYWNvL2xpYi90aW55bWNlL3BsdWdpbnMvZGlyZWN0aW9uYWxpdHkvcGx1Z2luLm1pbi5qczsvdW1icmFjby9saWIvdGlueW1jZS9wbHVnaW5zL3RhYmZvY3VzL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9zZWFyY2hyZXBsYWNlL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9mdWxsc2NyZWVuL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9ub25lZGl0YWJsZS9wbHVnaW4ubWluLmpzOw" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_cc769871a521449a9a89a113c20d4803.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/umbraco/lib/tinymce/tinymce.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/paste/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/anchor/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/charmap/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/table/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/lists/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/advlist/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/hr/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/autolink/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/directionality/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/tabfocus/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/searchreplace/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/fullscreen/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/noneditable/plugin.min.js" />
+    </files>
+  </item>
+  <item key="L1NjcmlwdHMvanF1ZXJ5LnZhbGlkYXRlLmpzOy9TY3JpcHRzL2pxdWVyeS52YWxpZGF0ZS5taW4uanM7L1NjcmlwdHMvanF1ZXJ5LnZhbGlkYXRlLnVub2JzdHJ1c2l2ZS5taW4uanM7L1NjcmlwdHMvanF1ZXJ5LnVub2JzdHJ1c2l2ZS1hamF4Lm1pbi5qczsvU2NyaXB0cy9jb250YWN0Rm9ybS5qczsvdmVuZG9yL2pxdWVyeS9qcXVlcnkubWluLmpzOy92ZW5kb3IvYm9vdHN0cmFwL2pzL2Jvb3RzdHJhcC5idW5kbGUubWluLmpzOy9qcy9jbGVhbi1ibG9nLm1pbi5qczsvc2NyaXB0cy9wbGVhc2VEb250R28uanM7" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_aeb377215ec84acaa77f9f880596ab07.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/Scripts/jquery.validate.js" />
+      <file name="/Scripts/jquery.validate.min.js" />
+      <file name="/Scripts/contactForm.js" />
+      <file name="/vendor/jquery/jquery.min.js" />
+      <file name="/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <file name="/js/clean-blog.min.js" />
+      <file name="/scripts/pleaseDontGo.js" />
+    </files>
+  </item>
+  <item key="L3NjcmlwdHMvbGF6eXNpemVzLm1pbi5qczsvc2NyaXB0cy9scy51bnZlaWxob29rcy5taW4uanM7" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_caa0f790ef944dba8e082202d8357c93.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/scripts/lazysizes.min.js" />
+      <file name="/scripts/ls.unveilhooks.min.js" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9qcXVlcnkvanF1ZXJ5Lm1pbi5qczsvdmVuZG9yL2Jvb3RzdHJhcC9qcy9ib290c3RyYXAuYnVuZGxlLm1pbi5qczsvanMvY2xlYW4tYmxvZy5taW4uanM7L1NjcmlwdHMvcGxlYXNlRG9udEdvLmpzOw" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_f4e5e3d1c9b0468abf6b7b070e900937.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/jquery/jquery.min.js" />
+      <file name="/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <file name="/js/clean-blog.min.js" />
+      <file name="/Scripts/pleaseDontGo.js" />
+    </files>
+  </item>
+  <item key="L1NjcmlwdHMvbGF6eXNpemVzLm1pbi5qczsvU2NyaXB0cy9scy51bnZlaWxob29rcy5taW4uanM7" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_e09626043d8745efb715e63e1a566475.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/Scripts/lazysizes.min.js" />
+      <file name="/Scripts/ls.unveilhooks.min.js" />
+    </files>
+  </item>
+  <item key="L1NjcmlwdHMvanF1ZXJ5LnZhbGlkYXRlLmpzOy9TY3JpcHRzL2pxdWVyeS52YWxpZGF0ZS5taW4uanM7L1NjcmlwdHMvanF1ZXJ5LnZhbGlkYXRlLnVub2JzdHJ1c2l2ZS5taW4uanM7L1NjcmlwdHMvanF1ZXJ5LnVub2JzdHJ1c2l2ZS1hamF4Lm1pbi5qczsvU2NyaXB0cy9jb250YWN0Rm9ybS5qczs" file="C:\Users\Mudassir\Documents\GitHub\Umbraco\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_c01062357fa848c08ad1ef57d41ffa94.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/Scripts/jquery.validate.js" />
+      <file name="/Scripts/jquery.validate.min.js" />
+      <file name="/Scripts/contactForm.js" />
+    </files>
+  </item>
+</map>

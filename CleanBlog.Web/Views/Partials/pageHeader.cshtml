@@ -6,9 +6,13 @@
     var image = Model.Value<IPublishedContent>(alias: "mainImage",fallback:Fallback.ToAncestors);
 
     string ImageUrl = "";
+    string SmallImageUrl = "";
+
     if (image != null)
     {
-        ImageUrl = image.GetCropUrl(width: 1903, height: 532);
+        ImageUrl = image.GetCropUrl("PageHeader.Large");
+        SmallImageUrl = image.GetCropUrl("PageHeader.Tiny");
+
     }
     var authorName = Model.HasProperty(alias: "authorName") && Model.HasValue(alias: "authorName") ? Model.Value<string>(alias:"authorName"):"";
     DateTime articleDate = Model.HasProperty(alias: "articleDate") && Model.HasValue(alias: "articleDate") ? Model.Value<DateTime>(alias: "articleDate") :DateTime.MinValue;
@@ -18,7 +22,7 @@
 
 
 <!-- Page Header -->
-<header class="masthead" style="@(!string.IsNullOrWhiteSpace(ImageUrl)?"background-image: url('"+ImageUrl +"')":null)">
+<header class="masthead lazyload" data-bg="@(!string.IsNullOrWhiteSpace(ImageUrl)?ImageUrl :null)" style="@(!string.IsNullOrWhiteSpace(SmallImageUrl)?"background-image: url('"+SmallImageUrl +"')":null)">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">

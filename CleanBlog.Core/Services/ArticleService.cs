@@ -46,7 +46,8 @@ namespace CleanBlog.Core.Services
 
 
 
-            var resultSet = new ArticleResultSet() { PageCount = pageCount, PageNumber = pageNumber, PageSize = pageSize, Results = pageOfArticles,IsArticleListPage=isArticleListPage };
+            var resultSet = new ArticleResultSet() { PageCount = pageCount, PageNumber = pageNumber, PageSize = pageSize,
+                Results = pageOfArticles,IsArticleListPage=isArticleListPage,Url=articleList.Url };
             return resultSet;
         }
     }

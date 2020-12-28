@@ -5,9 +5,9 @@
     }
 
     @Html.Partial("~/Views/Partials/pageHeader.cshtml")
-    @Model.WelcomeMessage
+    @*@Model.WelcomeMessage*@
     <!-- Main Content -->
-    @Html.Partial("~/Views/Partials/latestArticles.cshtml")
+    @Html.CachedPartial("~/Views/Partials/latestArticles.cshtml",Model,3600)
 @section ScriptsBottom
     {
     <script type="text/javascript">

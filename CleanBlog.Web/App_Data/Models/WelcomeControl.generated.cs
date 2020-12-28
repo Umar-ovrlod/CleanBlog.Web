@@ -19,18 +19,9 @@ using Umbraco.ModelsBuilder.Embedded;
 
 namespace Umbraco.Web.PublishedModels
 {
-	// Mixin Content Type with alias "welcomeControl"
-	/// <summary>Welcome Control</summary>
-	public partial interface IWelcomeControl : IPublishedContent
-	{
-		/// <summary>Welcome Message</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.9.1")]
-		string WelcomeMessage { get; }
-	}
-
 	/// <summary>Welcome Control</summary>
 	[PublishedModel("welcomeControl")]
-	public partial class WelcomeControl : PublishedContentModel, IWelcomeControl
+	public partial class WelcomeControl : PublishedContentModel
 	{
 		// helpers
 #pragma warning disable 0109 // new is redundant
@@ -58,10 +49,6 @@ namespace Umbraco.Web.PublishedModels
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.9.1")]
 		[ImplementPropertyType("welcomeMessage")]
-		public string WelcomeMessage => GetWelcomeMessage(this);
-
-		/// <summary>Static getter for Welcome Message</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.9.1")]
-		public static string GetWelcomeMessage(IWelcomeControl that) => that.Value<string>("welcomeMessage");
+		public string WelcomeMessage => this.Value<string>("welcomeMessage");
 	}
 }

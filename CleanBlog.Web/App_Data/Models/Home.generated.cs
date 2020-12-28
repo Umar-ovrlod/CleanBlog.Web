@@ -21,7 +21,7 @@ namespace Umbraco.Web.PublishedModels
 {
 	/// <summary>Home</summary>
 	[PublishedModel("home")]
-	public partial class Home : PublishedContentModel, IContentControl, IFooterControls, IHeaderControls, IMainImageControl, IRetentionControls, ISEocontrol, IWelcomeControl
+	public partial class Home : PublishedContentModel, IContentControl, IFooterControls, IHeaderControls, IMainImageControl, IRetentionControls, ISEocontrol
 	{
 		// helpers
 #pragma warning disable 0109 // new is redundant
@@ -106,12 +106,5 @@ namespace Umbraco.Web.PublishedModels
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.9.1")]
 		[ImplementPropertyType("metaName")]
 		public string MetaName => global::Umbraco.Web.PublishedModels.SEocontrol.GetMetaName(this);
-
-		///<summary>
-		/// Welcome Message: Enter the welcome message which will show to user on landing on website homepage
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.9.1")]
-		[ImplementPropertyType("welcomeMessage")]
-		public string WelcomeMessage => global::Umbraco.Web.PublishedModels.WelcomeControl.GetWelcomeMessage(this);
 	}
 }
