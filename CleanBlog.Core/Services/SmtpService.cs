@@ -44,7 +44,7 @@ namespace CleanBlog.Core.Services
             }
             catch (Exception ex)
             {
-                _logger.Error(typeof(ContactSurfaceController), ex, "Error sending contact form");
+                _logger.Error(typeof(ContactSurfaceController), ex,"Error sending contact form");
                 return false;
             }
         }
